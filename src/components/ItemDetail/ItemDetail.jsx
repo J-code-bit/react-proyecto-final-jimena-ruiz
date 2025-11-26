@@ -17,3 +17,4 @@ export const ItemDetail = ({detail}) => {
         </Item>
     );
 };
+

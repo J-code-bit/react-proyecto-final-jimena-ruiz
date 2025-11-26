@@ -19,7 +19,7 @@ export const CartProvider = ({children}) => {
                 }
             });
             setCart(updatedCart);
-            alert(`Agregado al carrito`);
+            alert('Agregado al carrito');
             } else {
             setCart([...cart, item]);
             alert(`${item.name} agregado`);

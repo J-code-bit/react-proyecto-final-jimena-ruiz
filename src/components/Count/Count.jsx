@@ -13,10 +13,10 @@ export const Count = ({ btnText, onConfirm }) => {
     };
 
     const confirm = () => {
-    if (count > 0) {
+        if (count > 0) {
         onConfirm(count);
-    }
-    };
+        }
+    }; 
 
     return (
     <div className="count-container">
@@ -35,4 +35,4 @@ export const Count = ({ btnText, onConfirm }) => {
         </button>
     </div>
     );
-};
+}; 
