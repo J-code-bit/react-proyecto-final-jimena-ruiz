@@ -18,7 +18,7 @@ export const createProduct = async (product) => {
 export const getProducts = async (category) => {
     let url = BASE_URL;
     if (category){
-        url = `${BASE_URL}?category${category}`;
+        url = `${BASE_URL}?category=${category}`;
     }
 
     const res = await fetch(url);
